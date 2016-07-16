@@ -1,10 +1,10 @@
-<views.myrelative xmlns:android="http://schemas.android.com/apk/res/android"
+<com.andywong.views.myrelative xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
 
-    <views.viewgroup1
+    <com.andywong.views.viewgroup1
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
         <ScrollView
@@ -38,9 +38,9 @@
                 android:src="@drawable/aier"/>"
         </LinearLayout>
         </ScrollView>
-    </views.viewgroup1>
+    </com.andywong.views.viewgroup1>
 
-    <views.viewgroup2
+    <com.andywong.views.viewgroup2
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
         <ScrollView
@@ -74,6 +74,6 @@
                     android:src="@drawable/gta2"/>"
             </LinearLayout>
         </ScrollView>
-    </views.viewgroup2>
+    </com.andywong.views.viewgroup2>
 
-</views.myrelative>
+</com.andywong.views.myrelative>

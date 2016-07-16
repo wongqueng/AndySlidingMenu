@@ -1,4 +1,4 @@
-package views;
+package com.andywong.views;
 
 import android.content.Context;
 import android.graphics.Camera;
