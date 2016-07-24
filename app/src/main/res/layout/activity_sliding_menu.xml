@@ -1,10 +1,11 @@
-<com.andywong.views.myrelative xmlns:android="http://schemas.android.com/apk/res/android"
+<views.myrelative xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
 
-    <com.andywong.views.viewgroup1
+    <views.viewgroup1
+        android:id="@+id/menulayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
         <ScrollView
@@ -17,17 +18,17 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
+                android:id="@+id/tx1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="菜单栏0"/>
+                android:textSize="50sp"
+                android:text="滑动缩放"/>
             <TextView
+                android:id="@+id/tx2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="菜单栏1"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="菜单栏2"/>
+                android:textSize="50sp"
+                android:text="3D翻转"/>
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -38,9 +39,10 @@
                 android:src="@drawable/aier"/>"
         </LinearLayout>
         </ScrollView>
-    </com.andywong.views.viewgroup1>
+    </views.viewgroup1>
 
-    <com.andywong.views.viewgroup2
+    <views.viewgroup2
+        android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
         <ScrollView
@@ -74,6 +76,6 @@
                     android:src="@drawable/gta2"/>"
             </LinearLayout>
         </ScrollView>
-    </com.andywong.views.viewgroup2>
+    </views.viewgroup2>
 
-</com.andywong.views.myrelative>
+</views.myrelative>
